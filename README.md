@@ -26,6 +26,7 @@ Form onSubmit event (vanillaJS-based) => Action => Reducer => Mapping State (of 
 <img src="adds-to-list">
 
 
+Tips for Deployment: Use <a href="https://stackoverflow.com/questions/46803442/concurrently-run-express-and-create-react-app-issue">Concurrently</a> or you'll have to deploy to two servers (one for Create React App and one for NodeJS API).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
