@@ -11,9 +11,9 @@ Also, be sure you've created a new SQL Database with the file in the root direct
 
 <img src="screenshot.png">
 
-Up to minute 20 in the<a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
+Up to minute 50 in the <a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
 
-Using this API: http://koalacms.herokuapp.com/api/messages
+Using this NodeJS API: http://koalacms.herokuapp.com/api/messages taken from another Repo I made about a <a href="https://github.com/ElishaKay/MySQL-Node-Angular">NodeJS CMS.</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
