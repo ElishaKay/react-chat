@@ -12,7 +12,7 @@ b) Install the <a href="https://chrome.google.com/webstore/detail/redux-devtools
 
 <img src="screenshot.png">
 
-Up to minute 50 in the <a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
+Up to 1:06:00 in the <a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
 
 Using this NodeJS API: http://koalacms.herokuapp.com/api/messages taken from another Repo I made about a <a href="https://github.com/ElishaKay/MySQL-Node-Angular">NodeJS CMS.</a>
 
@@ -23,7 +23,7 @@ The latest messages are immediately added to the state, which calls "MapStatetoP
 
 Form onSubmit event (vanillaJS-based) => Action => Reducer => Mapping State (of Application) to the Props of the Component => DOM Itself getting updated.
 
-<img src="adds-to-list">
+<img src="adds-to-list.png">
 
 
 Tips for Deployment: Use <a href="https://stackoverflow.com/questions/46803442/concurrently-run-express-and-create-react-app-issue">Concurrently</a> or you'll have to deploy to two servers (one for Create React App and one for NodeJS API).
