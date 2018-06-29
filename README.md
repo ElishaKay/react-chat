@@ -1,19 +1,25 @@
-The NodeJS Server is running on 
-
 Open 2 command prompts.
 
 CMD #1: npm start // this will start React on Localhost:3000
 
 CMD #2: node server // this will start the NodeJS Server on Localhost:5000
 
-Also, be sure you've created a new SQL Database with the file in the root directory called 'Database.sql'
+Prerequisites:
 
+a) be sure you've created a new SQL Database with the file in the root directory called 'Database.sql'
+
+b) Install the <a href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en">Redux DevTools Chrome Extension</a>.
 
 <img src="screenshot.png">
 
 Up to minute 50 in the <a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
 
 Using this NodeJS API: http://koalacms.herokuapp.com/api/messages taken from another Repo I made about a <a href="https://github.com/ElishaKay/MySQL-Node-Angular">NodeJS CMS.</a>
+
+<img src="redux-messages.png">
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

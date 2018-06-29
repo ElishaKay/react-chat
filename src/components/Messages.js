@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import  { connect } from 'react-redux';
 import { fetchMessages } from '../actions/messageActions';
 
@@ -20,6 +21,11 @@ class Messages extends Component {
 		</div>
 		)
 	}
+}
+
+Messages.propTypes = {
+	fetchMessages: PropTypes.func.isRequired,
+	messages: PropTypes.array.isRequired
 }
 
 const mapStateToProps = state => ({
