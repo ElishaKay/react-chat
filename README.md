@@ -19,6 +19,12 @@ Using this NodeJS API: http://koalacms.herokuapp.com/api/messages taken from ano
 <img src="redux-messages.png">
 
 
+The latest messages are immediately added to the state, which calls "MapStatetoProps[of the Component]" , and the Props of the Component pass it on to the DOM.
+
+Form onSubmit event (vanillaJS-based) => Action => Reducer => Mapping State (of Application) to the Props of the Component => DOM Itself getting updated.
+
+<img src="adds-to-list">
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

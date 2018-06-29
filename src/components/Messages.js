@@ -8,6 +8,12 @@ class Messages extends Component {
 		this.props.fetchMessages();
 	}
 
+	componentWillReceiveProps(nextProps) {
+		if(nextProps.newMessage){
+			this.props.messages.unshift(nextProps.newMessage)
+		}
+	}
+
 	render() {
 		const messages = this.props.messages.map(message =>(
 			<div key={message.message_id}>
@@ -29,7 +35,8 @@ Messages.propTypes = {
 }
 
 const mapStateToProps = state => ({
-	messages: state.messages.items
+	messages: state.messages.items,
+	newMessage: state.messages.item
 })
 
 export default connect(mapStateToProps, { fetchMessages })(Messages)

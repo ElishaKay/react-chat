@@ -31,7 +31,7 @@ var route = function(app){
                  		if(err){
                  			console.log('Something went wrong: ',err)
                  		} else {
-                            res.json({success: true});
+                            res.json({sender: req.body.sender, message_content: req.body.message});
                         }
                  	}
                )

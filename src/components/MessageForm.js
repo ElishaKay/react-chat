@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import  { connect } from 'react-redux';
+import { createMessage } from '../actions/messageActions';
 
 class MessageForm extends Component {
 	constructor(props){
@@ -24,17 +27,8 @@ class MessageForm extends Component {
 			message: this.state.message
 		}
 
-		console.log('Message in the DOM after submit',message);
-
-		fetch('http://localhost:5000/api/newmessage', {
-			method: 'POST',
-			headers: {
-				'content-type': 'application/json'
-			},
-			body: JSON.stringify(message)
-		})
-			.then(res => res.json())
-			.then(data => console.log(data))
+		//Call Action
+		this.props.createMessage(message);
 	}
 
 	render() {
@@ -62,4 +56,8 @@ class MessageForm extends Component {
 	}
 }
 
-export default MessageForm
+MessageForm.propTypes = {
+	createMessage: PropTypes.func.isRequired
+};
+
+export default connect(null, { createMessage })(MessageForm)
