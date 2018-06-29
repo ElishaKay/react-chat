@@ -10,7 +10,7 @@ class Messages extends Component {
 
 	componentWillMount(){
 		console.log('mounted');
-			fetch('http://koalacms.herokuapp.com/api/messages')
+			fetch('http://localhost:5000/api/messages')
 				.then(res =>res.json())
 				.then(data => this.setState({ messages: data}))
 	}
@@ -18,7 +18,7 @@ class Messages extends Component {
 	render() {
 		const messages = this.state.messages.map(message =>(
 			<div key={message.message_id}>
-				<span>{message.client_email}: {message.message_content}</span>
+				<span>{message.sender}: {message.message_content}</span>
 			</div>
 		));
 		return (
