@@ -1,0 +1,2 @@
+export const FETCH_MESSAGES = 'FETCH_MESSAGES';
+export const NEW_MESSAGE = 'NEW_MESSAGE';

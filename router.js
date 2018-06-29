@@ -24,8 +24,6 @@ var route = function(app){
     });
 
 	app.post('/api/newmessage', function(req,res){
-           console.log('this is the req',req);
-           console.log('this is the req.body',req.body);
            connection.query(`INSERT INTO message 
                  	(message_sent_date, message_content, sender) 
                  	VALUES (NOW(), '${req.body.message}', '${req.body.sender}')`,

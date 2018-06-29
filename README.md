@@ -1,3 +1,14 @@
+The NodeJS Server is running on 
+
+Open 2 command prompts.
+
+CMD #1: npm start // this will start React on Localhost:3000
+
+CMD #2: node server // this will start the NodeJS Server on Localhost:5000
+
+Also, be sure you've created a new SQL Database with the file in the root directory called 'Database.sql'
+
+
 <img src="screenshot.png">
 
 Up to minute 20 in the<a href="https://www.youtube.com/watch?v=93p3LxR9xfM">Traversy Tutorial on Redux</a>
