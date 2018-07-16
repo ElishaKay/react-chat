@@ -1,3 +1,23 @@
+<h1>React Beginner's Guide</h1>
+
+Dear friends,
+
+This repo is based on repos that I have found online. In some cases I have added to the repo's code by adding a NodeJS server and MySQL database. In other cases, my innovation has been in documenting these projects - and how they are built using ReactJS, Redux, and Redux Devtools Chrome Extension.
+
+All projects are located in separate folders within the root directory.
+
+Table of Contents for this Repo:
+
+- [Project #1: React, Redux, MySQL, NodeJS](#React-Redux-MySQL-NodeJS)
+- [Project #2: React YouTube API](#React-YouTube-API)
+- [License](#license)
+
+
+
+
+React-Redux-MySQL-NodeJS
+-------
+
 Open 2 command prompts.
 
 CMD #1: npm start // this will start React on Localhost:3000
@@ -51,3 +71,30 @@ ___________________________________________________
 <a href="http://babeljs.io/repl">Good resource for understanding how JSX is converted into a React.createElement function</a>
 
 <img src="babel-repl.JPG">
+
+<br>
+
+
+React-YouTube-API
+-------
+
+This repo is based on an excellent course from Udemy given by Stephen Grider: <a href=
+"https://www.udemy.com/react-redux/">Modern React with Redux</a> - Master the fundamentals of React v16.3.2 and Redux as you develop apps with React Router, Webpack, and ES6. 
+
+
+
+<br>
+
+License
+-------
+
+The MIT License (MIT)
+
+Copyright (c) 2018 Elisha Kramer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
