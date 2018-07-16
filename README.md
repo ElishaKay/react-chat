@@ -8,14 +8,21 @@ All projects are located in separate folders within the root directory.
 
 Table of Contents for this Repo:
 
-- [Project #1: React, Redux, MySQL, NodeJS](#React-Redux-MySQL-NodeJS)
-- [Project #2: React YouTube API](#React-YouTube-API)
+Project #1: 
+- [React Redux MySQL NodeJS](#React-Redux-MySQL-NodeJS)
+
+Project #2: 
+- [React YouTube API](#React-YouTube-API)
+
+Project #3:
+- [React Redux MongoDB Shopping List](#React-MongoDB-Shopping-List)
+
 - [License](#license)
 
 
 
 
-React-Redux-MySQL-NodeJS
+React Redux MySQL NodeJS
 -------
 
 Open 2 command prompts.
@@ -75,11 +82,21 @@ ___________________________________________________
 <br>
 
 
-React-YouTube-API
+React YouTube API
 -------
 
 This repo is based on an excellent course from Udemy given by Stephen Grider: <a href=
 "https://www.udemy.com/react-redux/">Modern React with Redux</a> - Master the fundamentals of React v16.3.2 and Redux as you develop apps with React Router, Webpack, and ES6. 
+
+
+
+React Redux MongoDB Shopping List
+-------
+This project uses MongoDB (via MLab) and Concurrently and can be deployed to Heroku. It is based on the 8-part tutorial project by Brad Traversy, <a href="https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE">Learn The MERN Stack</a> and currently includes CRD (Create, Read and Delete) functionality.
+
+You can <a href="React-MongoDB-Shopping-List/README.md">read the Getting Started Guide here</a>.
+
+<img src="img/project-3.JPG">
 
 
 
