@@ -98,9 +98,12 @@ You can <a href="React-MongoDB-Shopping-List/README.md">read the Getting Started
 
 <img src="img/project-3.JPG">
 
-
-
 <br>
+
+<h3>Understanding the Actions and Reducers Flow</h3>
+
+<img src="react-reducers-flow.png">
+
 
 License
 -------
